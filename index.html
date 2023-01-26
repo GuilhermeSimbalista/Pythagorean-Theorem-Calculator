@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <section class="main">
+            <div class="content">
+                <h2>Calcular o lado em falta num triângulo retângulo - Teorema de Pitágoras</h2>
+                <form class="calculator" id="calculator">
+                    <img src="./accets/triangulo-retangulo.jpg" alt="">
+                    <ul>
+                        <li>
+                            <label for="hip">Valor da Hipotenusa:</label>
+                            <input type="text" id="hip">
+                        </li>
+                        <li>
+                            <label for="cat1">Valor do Cateto 1:⠀⠀</label>
+                            <input type="text" id="cat1">
+                        </li>
+                        <li>
+                            <label for="cat2">Valor do Cateto 2:⠀⠀</label>
+                            <input type="text" id="cat2">
+                        </li>
+                        <li>
+                            <button onclick="calculator()">Calcular</button>
+                        </li>
+                    </ul>
+                </form>
+                <section id="result" class="result">
+                    <h2>Resultado do Teorema de Pitágoras</h2>
+                </section>
+            </div>
+    </section>
+</body>
+</html>
